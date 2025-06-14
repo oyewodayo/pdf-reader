@@ -14,7 +14,7 @@ export default function Home() {
       </Typography>
 
       {/* Temporary test element */}
-      <Box sx={{ p: 2, bgcolor: 'error.main', color: 'white', mb: 2 }}>
+      <Box sx={{ p: 2, bgcolor: 'primary.main', color: 'white', mb: 2 }}>
         Visibility Test - You should see this
       </Box>
 
@@ -43,7 +43,7 @@ export default function Home() {
       </Box>
 
       <Typography variant="body2" color="text.secondary" align="center" sx={{ mt: 4 }}>
-        Powered by PDF.js and React
+        Developed by <a href="https://x.xom/oyewodayo"> Temidayo</a> using PDF.js
       </Typography>
     </Container>
   );

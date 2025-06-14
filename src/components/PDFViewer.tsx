@@ -17,6 +17,7 @@ export default function PDFViewer() {
       setError(null);
 
       try {
+        
         const loadingTask = pdfjsLib.getDocument({
           url: URL.createObjectURL(pdfFile),
           worker: pdfWorkerInstance // ✅
